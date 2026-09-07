@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Journeys by Kishore — Wedding Cinematography Portfolio">
+  <title>Journeys by Kishore — Wedding Cinematography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top"><span>JOURNEYS</span><b>BY KISHORE</b></a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">WEDDING CINEMATOGRAPHER · INDIA</p>
+        <h1>Stories that feel<br><em>alive.</em></h1>
+        <p class="intro">A curated collection of wedding films and photographs captured with a cinematic eye.</p>
+        <a class="button" href="#work">Explore the work <span>↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-orb"></div>
+        <div class="hero-caption">SELECTED<br>WEDDING STORIES</div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">PORTFOLIO</p>
+          <h2>Selected work</h2>
+        </div>
+        <div class="filters" id="filters"></div>
+      </div>
+      <div class="grid" id="projectGrid"></div>
+    </section>
+
+    <section class="about" id="about">
+      <p class="eyebrow">ABOUT</p>
+      <div>
+        <h2>Wedding stories, honestly and cinematically.</h2>
+        <p>Freelance cinematographer creating wedding films and visual stories for couples, studios and production companies. This portfolio highlights selected work across films and photography.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow">LET'S CREATE</p>
+      <h2>Have a story to tell?</h2>
+      <a class="contact-link" href="mailto:your@email.com">your@email.com ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Journeys by Kishore</span>
+    <span>Wedding Cinematography</span>
+  </footer>
+
+  <div class="modal" id="videoModal" aria-hidden="true">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-card">
+      <div class="video-wrap" id="videoWrap"></div>
+      <div class="modal-info">
+        <p class="eyebrow" id="modalCategory"></p>
+        <h3 id="modalTitle"></h3>
+      </div>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
