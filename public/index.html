@@ -1,83 +1,98 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Journeys by Kishore — Wedding Cinematography Portfolio">
-  <title>Journeys by Kishore — Wedding Cinematography</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Journeys by Kishore — Travel Vlogger</title>
+<meta name="description" content="Journeys by Kishore — travel stories, temples, mountains, nature and beautiful places captured through photography and film.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="nav">
-    <a class="brand" href="#top"><span>JOURNEYS</span><b>BY KISHORE</b></a>
-    <nav>
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<div class="preloader"><div class="pre-logo">JOURNEYS<br><em>BY KISHORE</em></div><div class="progress"></div></div>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">WEDDING CINEMATOGRAPHER · INDIA</p>
-        <h1>Stories that feel<br><em>alive.</em></h1>
-        <p class="intro">A curated collection of wedding films and photographs captured with a cinematic eye.</p>
-        <a class="button" href="#work">Explore the work <span>↓</span></a>
-      </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="hero-orb"></div>
-        <div class="hero-caption">SELECTED<br>WEDDING STORIES</div>
-      </div>
-    </section>
+<header class="header">
+  <a href="#top" class="logo">JOURNEYS <span>BY KISHORE</span></a>
+  <nav><a href="#journeys">Journeys</a><a href="#films">Films</a><a href="#about">About</a></nav>
+  <button class="menu" aria-label="Menu"><i></i><i></i></button>
+</header>
 
-    <section class="work" id="work">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">PORTFOLIO</p>
-          <h2>Selected work</h2>
-        </div>
-        <div class="filters" id="filters"></div>
-      </div>
-      <div class="grid" id="projectGrid"></div>
-    </section>
+<main id="top">
+<section class="hero">
+  <div class="hero-photo"></div><div class="hero-dark"></div>
+  <div class="hero-content">
+    <p class="label">TRAVEL · PHOTOGRAPHY · YOUTUBE</p>
+    <h1>I travel to<br><em>experience.</em></h1>
+    <p class="hero-description">Beautiful places. Ancient temples. Quiet mountains. Wild landscapes. I travel, experience and capture the moments that make a journey worth remembering.</p>
+    <a href="#journeys" class="discover">DISCOVER THE JOURNEYS <b>↓</b></a>
+  </div>
+  <div class="hero-side">TRAVEL VLOGGER<br>INDIA & BEYOND</div>
+  <div class="scroll-line"></div>
+</section>
 
-    <section class="about" id="about">
-      <p class="eyebrow">ABOUT</p>
-      <div>
-        <h2>Wedding stories, honestly and cinematically.</h2>
-        <p>Freelance cinematographer creating wedding films and visual stories for couples, studios and production companies. This portfolio highlights selected work across films and photography.</p>
-      </div>
-    </section>
+<section class="statement">
+  <div class="section-no">01</div>
+  <div class="statement-inner">
+    <p class="eyebrow">THE JOURNEY</p>
+    <h2>Every place has a feeling.<br><em>I want to capture it.</em></h2>
+    <p class="statement-copy">I don't travel just to reach a destination. I go to see it, walk through it, listen to it and experience it. Then I turn that experience into photographs and films to share with you.</p>
+  </div>
+</section>
 
-    <section class="contact" id="contact">
-      <p class="eyebrow">LET'S CREATE</p>
-      <h2>Have a story to tell?</h2>
-      <a class="contact-link" href="mailto:your@email.com">your@email.com ↗</a>
-    </section>
-  </main>
-
-  <footer>
-    <span>© <span id="year"></span> Journeys by Kishore</span>
-    <span>Wedding Cinematography</span>
-  </footer>
-
-  <div class="modal" id="videoModal" aria-hidden="true">
-    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
-    <div class="modal-backdrop" id="modalBackdrop"></div>
-    <div class="modal-card">
-      <div class="video-wrap" id="videoWrap"></div>
-      <div class="modal-info">
-        <p class="eyebrow" id="modalCategory"></p>
-        <h3 id="modalTitle"></h3>
-      </div>
-    </div>
+<section class="journeys" id="journeys">
+  <div class="center-heading">
+    <p class="eyebrow">02 — JOURNEYS</p>
+    <h2>Beautiful places.<br><em>Real experiences.</em></h2>
+    <p>From peaceful temples and misty hill stations to waterfalls, forests and unforgettable roads — these are moments from my travels.</p>
   </div>
 
-  <script src="config.js"></script>
-  <script src="app.js"></script>
-</body>
-</html>
+  <!-- Edge-to-edge editorial image field: intentionally NO captions/text over photographs -->
+  <div class="image-field">
+    <a class="tile tile-a" href="journey.html"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1800&q=90" alt="Mountain landscape"></a>
+    <a class="tile tile-b" href="journey.html"><img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1100&q=90" alt="Indian temple"></a>
+    <a class="tile tile-c" href="journey.html"><img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1100&q=90" alt="Waterfall"></a>
+    <a class="tile tile-d" href="journey.html"><img src="https://images.unsplash.com/photo-1486911278844-a81c5267e227?auto=format&fit=crop&w=1100&q=90" alt="Mountain valley"></a>
+    <a class="tile tile-e" href="journey.html"><img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1800&q=90" alt="Indian architecture"></a>
+    <a class="tile tile-f" href="journey.html"><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1100&q=90" alt="Road through landscape"></a>
+    <a class="tile tile-g" href="journey.html"><img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1100&q=90" alt="Mountain travel"></a>
+    <a class="tile tile-h" href="journey.html"><img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1800&q=90" alt="Indian heritage"></a>
+  </div>
+</section>
+
+<section class="full-quote">
+  <div class="quote-image"></div><div class="quote-overlay"></div>
+  <div class="quote-content"><p class="eyebrow">THE WAY I TRAVEL</p><h2>Look closer.<br><em>Feel more.</em></h2></div>
+</section>
+
+<section class="films" id="films">
+  <div class="center-heading">
+    <p class="eyebrow">03 — TRAVEL FILMS</p>
+    <h2>Journeys <em>in motion.</em></h2>
+    <p>My YouTube films are the complete experience — the sounds, conversations, landscapes, food, temples, people and unexpected moments along the way.</p>
+  </div>
+  <div class="film-grid">
+    <a class="film" href="https://www.youtube.com/" target="_blank" rel="noopener"><div class="film-image"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=90" alt="Travel film"><span>▶</span></div></a>
+    <a class="film" href="https://www.youtube.com/" target="_blank" rel="noopener"><div class="film-image"><img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=1800&q=90" alt="Mountain film"><span>▶</span></div></a>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-copy">
+    <p class="eyebrow">04 — ABOUT</p>
+    <h2>I'm Kishore.<br><em>This is my journey.</em></h2>
+    <p>I am a travel vlogger and filmmaker who loves discovering beautiful places and documenting the experience honestly. Sometimes it is a famous destination. Sometimes it is a quiet temple, a small town, a mountain road or a place I never expected to find.</p>
+    <p>This website is the visual side of my journeys — the photographs that deserve more than a few seconds on a video feed.</p>
+  </div>
+  <div class="about-photo"><img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=90" alt="Landscape"></div>
+</section>
+
+<section class="final">
+  <p class="eyebrow">05 — KEEP EXPLORING</p>
+  <h2>See you<br><em>on the road.</em></h2>
+  <div class="final-links"><a href="#journeys">VIEW JOURNEYS ↗</a><a href="#films">WATCH FILMS ↗</a></div>
+</section>
+</main>
+
+<footer><a class="logo" href="#top">JOURNEYS <span>BY KISHORE</span></a><span>TRAVEL · PHOTOGRAPHY · FILMS</span><span>© 2026</span></footer>
+<script src="app.js"></script>
+</body></html>
