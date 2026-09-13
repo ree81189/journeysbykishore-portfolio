@@ -1,25 +1,7 @@
-# Journeys by Kishore — Portfolio
+# Journeys by Kishore — Travel V3
 
-This is a static cinematic portfolio designed for Cloudflare Workers.
+Opening homepage prototype only, with an editorial, image-first travel-vlogger direction.
 
-## Add a project
-Open `public/config.js` and add an object inside `projects`:
+Key behavior: full-screen hero parallax, slow scroll movement, edge-to-edge mixed portrait/landscape image field with no captions on images, hover zoom, centered Journey/Films headings, and a starter inside journey page.
 
-```js
-{
-  title: "Couple Name Wedding",
-  category: "Highlight Films",
-  year: "2026",
-  location: "Hyderabad, India",
-  cover: "PUBLIC_IMAGE_URL",
-  video: "https://www.youtube.com/watch?v=VIDEO_ID"
-}
-```
-
-You can use YouTube or Vimeo links. The portfolio converts them to an embedded player automatically.
-
-## Google Drive
-The first version leaves Google Drive integration as a clearly marked next step. To automatically read public folders from Google Drive, we will connect the Google Drive API and use folder IDs. Do not put private Drive files or credentials in this repository.
-
-## Cloudflare
-The project is intended for Cloudflare Workers Static Assets. `wrangler.jsonc` points Cloudflare to `public/`.
+Replace temporary remote image URLs with your own optimized image hosting/Google Drive strategy later, and replace YouTube placeholders with your actual video links.
